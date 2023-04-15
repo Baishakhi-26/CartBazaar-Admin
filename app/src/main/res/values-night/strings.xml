@@ -5,4 +5,6 @@
     <string name="add_slider">Add Slider</string>
     <string name="all_order_details">All Order Details</string>
     <string name="upload_slider">Upload Slider</string>
+    <string name="upload_category">Upload Category</string>
+    <string name="category_name">Category Name</string>
 </resources>
