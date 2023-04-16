@@ -6,14 +6,15 @@
     android:layout_margin="5dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
-    
+
     <ImageView
         android:id="@+id/itemImageView"
         android:layout_width="36dp"
         android:layout_height="36dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/imagepreview"/>
+        tools:srcCompat="@tools:sample/avatars" />
+
     <TextView
         android:id="@+id/itemTextView"
         android:layout_width="wrap_content"
@@ -25,5 +26,6 @@
         app:layout_constraintBottom_toBottomOf="@id/itemImageView"
         app:layout_constraintStart_toEndOf="@id/itemImageView"
         app:layout_constraintTop_toTopOf="@id/itemImageView"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
