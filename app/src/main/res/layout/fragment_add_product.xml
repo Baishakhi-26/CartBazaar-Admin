@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="10dp"
-            android:hint="Product Description">
+            android:hint="@string/product_description">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/product_description_edit"
                 android:layout_width="match_parent"
@@ -36,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="10dp"
-            android:hint="Product MRP">
+            android:hint="@string/product_mrp">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/product_mrp_edit"
                 android:layout_width="match_parent"
@@ -47,7 +47,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Product SP"
+            android:hint="@string/product_sp"
             android:padding="10dp">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/product_sp_edit"
@@ -67,7 +67,7 @@
             android:id="@+id/selectCoverImg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Select Cover Image"
+            android:text="@string/select_display_picture"
             android:textAllCaps="false"
             android:layout_margin="10dp"/>
 
@@ -83,7 +83,7 @@
             android:id="@+id/productImgBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Select Cover Image"
+            android:text="@string/select_cover_image"
             android:textAllCaps="false"
             android:layout_margin="10dp"/>
 
